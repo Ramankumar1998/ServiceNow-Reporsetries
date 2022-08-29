@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Opportunity" max_length="40" name="x_819630_contract_opportunity" sizeclass="5" type="collection">
+        <element label="Account Name" max_length="32" name="account_name" reference="x_819630_contract_account" type="reference"/>
+        <element default="4000" label="Admin Notes" max_length="4000" name="admin_notes" type="journal_input"/>
+        <element choice="1" default="40" label="Alert Action" max_length="40" name="alert_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Updated" sequence="0" value="Updated"/>
+            </choice>
+        </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="ast_contract" type="reference"/>
+        <element label="Bonus-able Date" max_length="40" name="bonus_able_date" type="glide_date"/>
+        <element label="Bonus Approval Date" max_length="40" name="bonus_approval_date" type="glide_date"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Commitment Effective Date" max_length="40" name="commitment_effective_date" type="glide_date"/>
+        <element label="Corporate Code" max_length="40" name="corporate_code" type="string"/>
+        <element label="Correlation ID" max_length="40" name="correlation_id" type="string"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Created by" max_length="40" name="created_by" type="glide_date_time"/>
+        <element label="Created By User" max_length="40" name="created_by_user" type="string"/>
+        <element label="Expected Monthly Revenue" max_length="20" name="expected_monthly_revenue" type="price"/>
+        <element label="Exp Close Date" max_length="40" name="exp_close_date" type="glide_date"/>
+        <element label="First Order Date" max_length="40" name="first_order_date" type="glide_date"/>
+        <element choice="1" label="Joint Effort" max_length="40" name="joint_effort" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="N/A" sequence="0" value="N/A"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Joint Effort Rep" max_length="32" name="joint_effort_rep" reference="ast_contract" type="reference"/>
+        <element label="Lab" max_length="1024" name="lab" type="glide_list"/>
+        <element label="Lab Business Entity" max_length="40" name="lab_business_entity" type="string"/>
+        <element label="Lab Client ID" max_length="40" name="lab_client_id" type="string"/>
+        <element label="Lab Status" max_length="40" name="lab_status" type="string"/>
+        <element label="NPI" max_length="32" name="npi" reference="ast_contract" type="reference"/>
+        <element label="NPI representing the facility to be serviced" max_length="100" name="npi_representing_the_facility_to_be_serviced" type="string"/>
+        <element label="NPI #'s associated with the client location" max_length="100" name="npi_s_associated_with_the_client_location" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Opportunity Name" max_length="200" name="opportunity_name" type="string"/>
+        <element label="Parent Opportunity" max_length="32" name="parent_opportunity" reference="ast_contract" type="reference"/>
+        <element label="PICC Status" max_length="40" name="picc_status" type="string"/>
+        <element choice="1" label="Pipeline Tracker" max_length="40" name="pipeline_tracker" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Prospect" sequence="0" value="Prospect"/>
+                <element inactive_on_update="false" label="25% Solution Agreed To" sequence="1" value="25% Solution Agreed To"/>
+                <element inactive_on_update="false" label="55% Ops Sign Off" sequence="2" value="55% Ops Sign Off"/>
+                <element inactive_on_update="false" label="75% Pricing Set" sequence="3" value="75% Pricing Set"/>
+                <element inactive_on_update="false" label="90% Admin Sign Off" sequence="4" value="90% Admin Sign Off"/>
+                <element inactive_on_update="false" label="100% Contract Signed" sequence="5" value="100% Contract Signed"/>
+                <element inactive_on_update="false" label="Closed Won" sequence="6" value="Closed Won"/>
+                <element inactive_on_update="false" label="Closed Lost" sequence="7" value="Closed Lost"/>
+                <element inactive_on_update="false" label="Closed Under Threshold" sequence="8" value="Closed Under Threshold"/>
+            </choice>
+        </element>
+        <element label="Radiology Business Entity" max_length="40" name="radiology_business_entity" type="string"/>
+        <element label="Radiology Client ID" max_length="40" name="radiology_client_id" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element choice="1" label="Service" max_length="40" name="service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="X-RAY" sequence="0" value="X-RAY"/>
+                <element inactive_on_update="false" label="ULTRASOUND" sequence="1" value="ULTRASOUND"/>
+                <element inactive_on_update="false" label="LAB" sequence="2" value="LAB"/>
+                <element inactive_on_update="false" label="Vascular Access" sequence="3" value="Vascular Access"/>
+                <element inactive_on_update="false" label="TRANSFUSIONS" sequence="4" value="TRANSFUSIONS"/>
+                <element inactive_on_update="false" label="NP MEDICAL SERVICES (selected area)" sequence="5" value="NP MEDICAL SERVICES (selected area)"/>
+                <element inactive_on_update="false" label="HOLTER MONITORING (selected area)" sequence="6" value="HOLTER MONITORING (selected area)"/>
+                <element inactive_on_update="false" label="EVENT MONITORING (selected area)" sequence="7" value="EVENT MONITORING (selected area)"/>
+                <element inactive_on_update="false" label="PACEMAKER CHECKS (selected area)" sequence="8" value="PACEMAKER CHECKS (selected area)"/>
+                <element inactive_on_update="false" label="24 HR TELEMETRY (selected area)" sequence="9" value="24 HR TELEMETRY (selected area)"/>
+                <element inactive_on_update="false" label="OXYGEN (selected area)" sequence="10" value="OXYGEN (selected area)"/>
+                <element inactive_on_update="false" label="Infection Control" sequence="11" value="Infection Control"/>
+                <element inactive_on_update="false" label="RELY" sequence="12" value="RELY"/>
+            </choice>
+        </element>
+        <element label="Service Duration" max_length="40" name="service_duration" type="string"/>
+        <element label="Team" max_length="100" name="team" type="string"/>
+        <element choice="1" label="Top 20" max_length="40" name="top_20" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="YES" sequence="0" value="YES"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="NO"/>
+            </choice>
+        </element>
+        <element label="Type" max_length="40" name="type" type="string"/>
+        <element choice="1" label="Type of Win" max_length="40" name="type_of_win" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Organic" sequence="0" value="Organic"/>
+                <element inactive_on_update="false" label="Expansion" sequence="1" value="Expansion"/>
+                <element inactive_on_update="false" label="Winback (less than 12 mo)" sequence="2" value="Winback (less than 12 mo)"/>
+                <element inactive_on_update="false" label="Acquisition" sequence="3" value="Acquisition"/>
+            </choice>
+        </element>
+        <element label="Ultrasound" max_length="1024" name="ultrasound" type="glide_list"/>
+        <element label="Ultrasound Status" max_length="40" name="ultrasound_status" type="string"/>
+        <element label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <element label="Updated by" max_length="40" name="updated_by" type="string"/>
+        <element label="Updates" max_length="40" name="updates" type="integer"/>
+        <element label="Wins Approval Date" max_length="40" name="wins_approval_date" type="glide_date"/>
+        <element label="XRay Status" max_length="40" name="xray_status" type="string"/>
+        <element label="X-Ray" max_length="1024" name="x_ray" type="glide_list"/>
+        <index name="index">
+            <element name="joint_effort_rep"/>
+        </index>
+        <index name="index2">
+            <element name="npi"/>
+        </index>
+        <index name="index3">
+            <element name="parent_opportunity"/>
+        </index>
+        <index name="index4">
+            <element name="account_name"/>
+        </index>
+        <index name="index5">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

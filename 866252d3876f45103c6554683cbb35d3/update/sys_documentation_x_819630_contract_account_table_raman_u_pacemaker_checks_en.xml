@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_pacemaker_checks" label="Pacemaker Checks" language="en" table="x_819630_contract_account_table_raman">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_pacemaker_checks</element>
+            <help/>
+            <hint/>
+            <label>Pacemaker Checks</label>
+            <language>en</language>
+            <name>x_819630_contract_account_table_raman</name>
+            <plural>Pacemaker Checks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-30 13:46:17</sys_created_on>
+            <sys_id>08069ad187734d103c6554683cbb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pacemaker Checks</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_documentation_x_819630_contract_account_table_raman_u_pacemaker_checks_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-30 13:46:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Account Table raman" max_length="40" name="x_819630_contract_account_table_raman" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=24 Hr Telemetry" label="24 Hr Telemetry" max_length="40" name="u_24_hr_telemetry" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=24 Hr Telemetry Status" label="24 Hr Telemetry Status" max_length="40" name="u_24_hr_telemetry_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Name" label="Account Name" max_length="40" name="u_account_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Ranking" label="Account Ranking" max_length="40" name="u_account_ranking" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Status" label="Account Status" max_length="40" name="u_account_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Sub-Type" label="Account Sub-Type" max_length="40" name="u_account_sub_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Type" label="Account Type" max_length="40" name="u_account_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Reviewer Name" label="Additional Reviewer Name" max_length="40" name="u_additional_reviewer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Annual Price Increase Required?" label="Annual Price Increase Required?" max_length="40" name="u_annual_price_ease_required_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Aprima Client ID" label="Aprima Client ID" max_length="40" name="u_aprima_client_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=Beds SNF Certified" label="Beds SNF Certified" max_length="40" name="u_beds_snf_certified" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Billing Code" label="Client Billing Code" max_length="40" name="u_client_billing_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Description" label="Client Description" max_length="40" name="u_client_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Client Type" label="Client Type" max_length="40" name="u_client_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Corporately Owned" label="Corporately Owned" max_length="40" name="u_corporately_owned" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Corporate Account Rep" label="Corporate Account Rep" max_length="40" name="u_corporate_account_rep" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Corporate Affiliation" label="Corporate Affiliation" max_length="40" name="u_corporate_affiliation" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Corporate Affiliate (Footprint)" label="Corporate Affiliate (Footprint)" max_length="40" name="u_corporate_af_te__footprint_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Corporate Code" label="Corporate Code" max_length="40" name="u_corporate_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Corporate Footprint (Affiliate)" label="Corporate Footprint (Affiliate)" max_length="40" name="u_corporate_fo_nt__affiliate_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Cost Center" label="Cost Center" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=County" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=DDF Sales Rep ID" label="DDF Sales Rep ID" max_length="40" name="u_ddf_sales_rep_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Discontinue Date" label="Discontinue Date" max_length="40" name="u_discontinue_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dispatch Area" label="Dispatch Area" max_length="40" name="u_dispatch_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=EMR" label="EMR" max_length="40" name="u_emr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Enterprise Client ID" label="Enterprise Client ID" max_length="40" name="u_enterprise_client_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Event Monitoring" label="Event Monitoring" max_length="40" name="u_event_monitoring" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Event Monitoring Status" label="Event Monitoring Status" max_length="40" name="u_event_monitoring_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Exam per MN per 100 Beds" label="Exam per MN per 100 Beds" max_length="40" name="u_exam_per_mn_per_100_beds" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Group Purchasing Organization" label="Group Purchasing Organization" max_length="40" name="u_group_purcha_g_organization" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Holter Monitoring" label="Holter Monitoring" max_length="40" name="u_holter_monitoring" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Holter Monitoring Status" label="Holter Monitoring Status" max_length="40" name="u_holter_monitoring_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Corporate Account?" label="Is Corporate Account?" max_length="40" name="u_is_corporate_account_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Duplicate" label="Is Duplicate" max_length="40" name="u_is_duplicate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab" label="Lab" max_length="40" name="u_lab" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab Business Entity" label="Lab Business Entity" max_length="40" name="u_lab_business_entity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab Client ID" label="Lab Client ID" max_length="40" name="u_lab_client_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab Fee Schedule" label="Lab Fee Schedule" max_length="40" name="u_lab_fee_schedule" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab Sent Date" label="Lab Sent Date" max_length="40" name="u_lab_sent_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab Status" label="Lab Status" max_length="40" name="u_lab_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lab - Unable Reason" label="Lab - Unable Reason" max_length="40" name="u_lab___unable_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Local Ownership" label="Local Ownership" max_length="40" name="u_local_ownership" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Mapped with PACC" label="Mapped with PACC" max_length="40" name="u_mapped_with_pacc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Medicare Provider/CNN#" label="Medicare Provider/CNN#" max_length="40" name="u_medicare_provider_cnn_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Non SNF Beds/Patients/Inmates" label="Non SNF Beds/Patients/Inmates" max_length="40" name="u_non_snf_beds_tients_inmates" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NPI Client" label="NPI Client" max_length="40" name="u_npi_client" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NPI Facility" label="NPI Facility" max_length="40" name="u_npi_facility" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NP Medical Services" label="NP Medical Services" max_length="40" name="u_np_medical_services" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=NP Medical Services Status" label="NP Medical Services Status" max_length="40" name="u_np_medical_services_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Office Fax" label="Office Fax" max_length="40" name="u_office_fax" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Office Phone" label="Office Phone" max_length="40" name="u_office_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Oxygen" label="Oxygen" max_length="40" name="u_oxygen" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Oxygen Status" label="Oxygen Status" max_length="40" name="u_oxygen_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pacemaker Checks" label="Pacemaker Checks" max_length="40" name="u_pacemaker_checks" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pacemaker Checks Status" label="Pacemaker Checks Status" max_length="40" name="u_pacemaker_checks_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Physical Address" label="Physical Address" max_length="40" name="u_physical_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PICC" label="PICC" max_length="40" name="u_picc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PICC Status" label="PICC Status" max_length="40" name="u_picc_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PICC - Unable Reason" label="PICC - Unable Reason&#9;" max_length="40" name="u_picc___unable_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=POS code" label="POS code" max_length="40" name="u_pos_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Radiology Business Entity" label="Radiology Business Entity" max_length="40" name="u_radiology_business_entity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Radiology Client ID" label="Radiology Client ID" max_length="40" name="u_radiology_client_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ranking as of" label="Ranking as of" max_length="40" name="u_ranking_as_of" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Regional Manager Group" label="Regional Manager Group" max_length="40" name="u_regional_manager_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Relationship Type" label="Relationship Type" max_length="40" name="u_relationship_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Report Billing Issue" label="Report Billing Issue" max_length="40" name="u_report_billing_issue" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Seacoast ID" label="Seacoast ID" max_length="40" name="u_seacoast_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Secondary Assigned to" label="Secondary Assigned to" max_length="40" name="u_secondary_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ServiceNow NPI Link" label="ServiceNow NPI Link" max_length="40" name="u_servicenow_npi_link" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ServiceNow NPI Number" label="ServiceNow NPI Number" max_length="40" name="u_servicenow_npi_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ServiceNow PACC Link" label="ServiceNow PACC Link" max_length="40" name="u_servicenow_pacc_link" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ServiceNow PACC Number" label="ServiceNow PACC Number" max_length="40" name="u_servicenow_pacc_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SM2 Telcor ID" label="SM2 Telcor ID" max_length="40" name="u_sm2_telcor_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Special Considerations" label="Special Considerations" max_length="40" name="u_special_considerations" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State Ranking" label="State Ranking" max_length="40" name="u_state_ranking" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Street" label="Street" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags" label="Tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Teams" label="Teams" max_length="40" name="u_teams" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Beds/Patients/Inmates" label="Total Beds/Patients/Inmates" max_length="40" name="u_total_beds_patients_inmates" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Trident Telcor ID" label="Trident Telcor ID" max_length="40" name="u_trident_telcor_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ultrasound" label="Ultrasound" max_length="40" name="u_ultrasound" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ultrasound Fee Schedule" label="Ultrasound Fee Schedule" max_length="40" name="u_ultrasound_fee_schedule" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ultrasound Status" label="Ultrasound Status" max_length="40" name="u_ultrasound_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Website" label="Website" max_length="40" name="u_website" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X-Ray" label="X-Ray" max_length="40" name="u_x_ray" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X-Ray Fee Schedule" label="X-Ray Fee Schedule" max_length="40" name="u_x_ray_fee_schedule" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X-Ray Sent Date" label="X-Ray Sent Date" max_length="40" name="u_x_ray_sent_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X-Ray Status" label="X-Ray Status" max_length="40" name="u_x_ray_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=X-Ray - Unable Reason" label="X-Ray - Unable Reason" max_length="40" name="u_x_ray___unable_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip Code" label="Zip Code" max_length="40" name="u_zip_code" type="string"/>
+    </element>
+</database>

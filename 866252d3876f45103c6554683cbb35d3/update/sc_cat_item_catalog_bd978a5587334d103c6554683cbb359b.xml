@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Submit an NPI">370d94c487b309103c6554683cbb356a</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-30 12:43:20</sys_created_on>
+        <sys_id>bd978a5587334d103c6554683cbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Submit an NPI</sys_name>
+        <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_bd978a5587334d103c6554683cbb359b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-30 12:43:20</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

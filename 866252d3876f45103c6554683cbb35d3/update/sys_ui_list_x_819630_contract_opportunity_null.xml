@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_819630_contract_opportunity" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>5172047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>account_name</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>d172047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>admin_notes</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>5572047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>alert_action</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>d572047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>5972047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bonus_able_date</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>d972047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bonus_approval_date</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>5d72047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>dd72047b87a3c5103c6554683cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commitment_effective_date</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>5172047b87a3c5103c6554683cbb3544</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>corporate_code</element>
+            <list_id display_value="x_819630_contract_opportunity" element="NULL" name="x_819630_contract_opportunity" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9572047b87a3c5103c6554683cbb3542</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_id>d172047b87a3c5103c6554683cbb3544</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_819630_contract_opportunity</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 11:10:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9572047b87a3c5103c6554683cbb3542</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_819630_contract_opportunity</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_ui_list_x_819630_contract_opportunity_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 11:10:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

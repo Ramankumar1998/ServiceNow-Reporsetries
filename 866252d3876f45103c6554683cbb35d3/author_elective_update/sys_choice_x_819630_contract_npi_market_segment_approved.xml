@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="market_segment_approved" table="x_819630_contract_npi" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>market_segment_approved</element>
+            <name>x_819630_contract_npi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_id>8b34d0bb87e3c5103c6554683cbb3512</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>market_segment_approved</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_choice_x_819630_contract_npi_market_segment_approved</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Consumer Health - Athletics</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0734d0bb87e3c5103c6554683cbb3512</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Consumer Health - Athletics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Consumer Health - Behaviour Health</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8734d0bb87e3c5103c6554683cbb3513</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Consumer Health - Behaviour Health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Consumer Health - Direct Primary Care</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c734d0bb87e3c5103c6554683cbb3514</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Consumer Health - Direct Primary Care</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Employer Worksite - Occupational Health - Employer Direct</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8734d0bb87e3c5103c6554683cbb3515</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Employer Worksite - Occupational Health - Employer Direct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Employer Worksite - Occupational Health - Provider</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4734d0bb87e3c5103c6554683cbb3516</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Employer Worksite - Occupational Health - Provider</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Employer Worksite - Occupational Health - Worksite Operator</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0734d0bb87e3c5103c6554683cbb3517</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Employer Worksite - Occupational Health - Worksite Operator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Employer Worksite - Primary Care - Employer Direct</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c334d0bb87e3c5103c6554683cbb3518</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Employer Worksite - Primary Care - Employer Direct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Employer Worksite - Primary Care - Provider</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0334d8fb87e3c5103c6554683cbb354b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Employer Worksite - Primary Care - Provider</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private - Employer Worksite - Primary Care - Worksite Operator</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf34d8fb87e3c5103c6554683cbb354b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Private - Employer Worksite - Primary Care - Worksite Operator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public - City</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f34d8fb87e3c5103c6554683cbb354c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Public - City</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public - County</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f34d8fb87e3c5103c6554683cbb354d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Public - County</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public - Federal</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f34d8fb87e3c5103c6554683cbb354e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Public - Federal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>market_segment_approved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public - State</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb34d8fb87e3c5103c6554683cbb354f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:28:27</sys_updated_on>
+            <value>Public - State</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

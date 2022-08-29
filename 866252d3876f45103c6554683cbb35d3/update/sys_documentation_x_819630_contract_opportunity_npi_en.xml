@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="npi" label="NPI" language="en" table="x_819630_contract_opportunity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>npi</element>
+            <help/>
+            <hint/>
+            <label>NPI</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <plural>NPIs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 07:38:06</sys_created_on>
+            <sys_id>42c1932f87ef85103c6554683cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NPI</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_documentation_x_819630_contract_opportunity_npi_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 07:38:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

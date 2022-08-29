@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="pipeline_tracker" table="x_819630_contract_opportunity" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>pipeline_tracker</element>
+            <name>x_819630_contract_opportunity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_id>d681983b87e3c5103c6554683cbb35ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pipeline_tracker</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_choice_x_819630_contract_opportunity_pipeline_tracker</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prospect</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5281983b87e3c5103c6554683cbb35ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>Prospect</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>25% Solution Agreed To</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d281983b87e3c5103c6554683cbb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>25% Solution Agreed To</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>55% Ops Sign Off</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9281983b87e3c5103c6554683cbb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>55% Ops Sign Off</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>75% Pricing Set</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5281983b87e3c5103c6554683cbb35f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>75% Pricing Set</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>90% Admin Sign Off</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1281983b87e3c5103c6554683cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>90% Admin Sign Off</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>100% Contract Signed</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de81983b87e3c5103c6554683cbb35f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>100% Contract Signed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Won</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e81983b87e3c5103c6554683cbb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>Closed Won</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Lost</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a81907b87e3c5103c6554683cbb35eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>Closed Lost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pipeline_tracker</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Under Threshold</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a81907b87e3c5103c6554683cbb35ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:16:39</sys_updated_on>
+            <value>Closed Under Threshold</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

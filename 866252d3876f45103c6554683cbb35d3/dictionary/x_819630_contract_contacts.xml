@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contacts" max_length="40" name="x_819630_contract_contacts" sizeclass="0" type="collection">
+        <element label="Account Name" max_length="32" name="account_name" reference="ast_contract" type="reference"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Additional Information" max_length="40" name="additional_information" type="string"/>
+        <element label="Alternate or Personal Address" max_length="2000" name="alternate_or_personal_address" type="string"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="ast_contract" type="reference"/>
+        <element label="Assistant" max_length="40" name="assistant" type="string"/>
+        <element label="Assistant Phone" max_length="40" name="assistant_phone" type="phone_number_e164"/>
+        <element label="Cost Center" max_length="40" name="cost_center" type="string"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Created by" max_length="40" name="created_by" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Do Not Call Mobile" max_length="40" name="do_not_call_mobile" type="boolean"/>
+        <element label="Email Address" max_length="100" name="email_address" type="string"/>
+        <element label="Fax" max_length="40" name="fax" type="phone_number_e164"/>
+        <element label="Home Phone" max_length="40" name="home_phone" type="phone_number_e164"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Mobile" max_length="40" name="mobile" type="phone_number_e164"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="NPI (if applicable)" max_length="40" name="npi_if_applicable" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Office Phone" max_length="40" name="office_phone" type="phone_number_e164"/>
+        <element label="Other Phone" max_length="40" name="other_phone" type="phone_number_e164"/>
+        <element label="Primary Address" max_length="40" name="primary_address" type="string"/>
+        <element label="Radiology Client ID" max_length="40" name="radiology_client_id" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="RSD/RSM" max_length="32" name="rsd_rsm" reference="ast_contract" type="reference"/>
+        <element label="Salutation" max_length="60" name="salutation" type="string"/>
+        <element label="Sync to Mail Client" max_length="40" name="sync_to_mail_client" type="boolean"/>
+        <element label="Title List" max_length="40" name="title_list" type="string"/>
+        <element label="Trident Customer Portal User" max_length="40" name="trident_customer_portal_user" type="boolean"/>
+        <element label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <element label="Updated by" max_length="40" name="updated_by" type="string"/>
+        <element label="Updates" max_length="40" name="updates" type="string"/>
+        <index name="index">
+            <element name="rsd_rsm"/>
+        </index>
+        <index name="index2">
+            <element name="account_name"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

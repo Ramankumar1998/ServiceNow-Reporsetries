@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>status_model_move_to_approval</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>javascript:current.status==2;</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Ask For Approval</name>
+        <onclick>moveToApproval()</onclick>
+        <order>200</order>
+        <script><![CDATA[function moveToApproval() {
+    g_form.setValue('status', "3");
+    gsftSubmit(null, g_form.getFormElement(), "status_model_move_to_approval");
+}
+
+
+
+if (typeof window == 'undefined') {
+    setRedirect();
+
+}
+
+function setRedirect() {
+    current.status = 3;
+    current.update();
+
+    createApproval();
+    action.setRedirectURL(current);
+}
+
+
+
+
+function createApproval() {
+    var approval_gr = new GlideRecord('sysapproval_approver');
+    //gs.addInfoMessage(":::");
+    approval_gr.initialize();
+    approval_gr.state = 'requested';
+    //approval_gr.setValue()'f09b2d952f370110ee07f64ef699b62c';
+    //approval_gr.assignment_group.manager = '62826bf03710200044e0bfc8bcbe5df1';
+    approval_gr.approver = current.assignment_group.manager; 
+	approval_gr.document_id = current.sys_id;
+	//Replace with approver from current record
+    approval_gr.sysapproval = current.sys_id; //Current is record that requires approval
+    approval_gr.insert();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 10:25:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56b3451e87b741103c6554683cbb35e3</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>Ask For Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+        <sys_update_name>sys_ui_action_56b3451e87b741103c6554683cbb35e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 14:16:47</sys_updated_on>
+        <table>x_819630_contract_npi</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</application>
+        <file_path/>
+        <instance_id>cca15667db1d8510e62f3feb68961920</instance_id>
+        <instance_name>dev124237</instance_name>
+        <name>sys_ui_action_56b3451e87b741103c6554683cbb35e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;status_model_move_to_approval&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;javascript:current.status==2;&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Ask For Approval&lt;/name&gt;&lt;onclick&gt;moveToApproval()&lt;/onclick&gt;&lt;order&gt;200&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function moveToApproval() {
+    g_form.setValue('status', "3");
+    gsftSubmit(null, g_form.getFormElement(), "status_model_move_to_approval");
+}
+
+
+
+if (typeof window == 'undefined') {
+    setRedirect();
+
+}
+
+function setRedirect() {
+    current.status = 3;
+    current.update();
+
+    createApproval();
+    action.setRedirectURL(current);
+}
+
+
+
+
+function createApproval() {
+    var approval_gr = new GlideRecord('sysapproval_approver');
+    //gs.addInfoMessage(":::");
+    approval_gr.initialize();
+    approval_gr.state = 'requested';
+    //approval_gr.setValue()'f09b2d952f370110ee07f64ef699b62c';
+    //approval_gr.assignment_group.manager = '62826bf03710200044e0bfc8bcbe5df1';
+    approval_gr.approver = current.assignment_group.manager; 
+	approval_gr.document_id = current.sys_id;
+	//Replace with approver from current record
+    approval_gr.sysapproval = current.sys_id; //Current is record that requires approval
+    approval_gr.insert();
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-02 10:25:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;56b3451e87b741103c6554683cbb35e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;39&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ask For Approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Contract Life Cycle Management" source="x_819630_contract"&gt;866252d3876f45103c6554683cbb35d3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Contract Life Cycle Management"&gt;866252d3876f45103c6554683cbb35d3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_56b3451e87b741103c6554683cbb35e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-02 14:16:47&lt;/sys_updated_on&gt;&lt;table&gt;x_819630_contract_npi&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>757769515</payload_hash>
+        <record_name>Ask For Approval</record_name>
+        <reverted_from/>
+        <source>580d10ff87e3c5103c6554683cbb352d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 14:16:47</sys_created_on>
+        <sys_id>f7b97956877b41103c6554683cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18124c6a7020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 14:16:47</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>33b97956487b4110f2f1de85ad4923cc</update_guid>
+        <update_guid_history>33b97956487b4110f2f1de85ad4923cc:757769515,86993552dabb4110d878b2f7e44d16cd:1323107178,5871a5da8f3b41108d36c824b7f59c39:111670886,4d41ad9a3c3b4110b149877e524f41f1:-526747303,3ae0ed5abb3b4110b752f9794d07d307:-1519861788,9aefd91af93b41101b1ae80f579a6be4:-1179452120,d0af515a7a3b411029c177d6b7a6134f:2039409640,3f3fd91a0b3b4110ec5128f0861753fb:930120144,9f0f5d1a8f3b411014481cce186c9019:118810357,59be91d63d3b41106f86c8d996c7666c:1354725913,c16e11d6c23b4110a50d2ee111843126:-747842348,4f1e55d6c53b4110f7b64c2151923d45:-1136372699,2a5d91d6bb3b41108146e56d0a90e923:-1462362253,421d5d96283b411032a253eb77573ea4:2109627475,713c1196273b41105331a46c0450233c:-713271496,072c9116cc3b4110bab8e1dc18832bdd:1931345939,8a8a9116133b41106333807f3207db64:-1434904484,815a5dd2d73b4110f77c360131b6b8d8:-1673143336,502a1dd23d3b4110ec6e1ba8f975baf5:-1228736315,e4d915d21f3b4110f5103b0d32a8caad:252667134,fe99d1d2cd3b4110ebd91c8fd5a2297a:1867314160,cc191592cd3b41101159980f464e2f8c:1219236620,cd09d952883b41107fd840a5494e4946:1347180619,99b699de28f741109a0aef14ea6e0bdd:1986162667,9b86d5de53f741101031a943adf6f5d0:1861542444,271619deeef74110f7894600e4b8e033:-1765924552,bdf19d9aa5f74110ed55a2878655961f:-306103220,28e05d5a64f74110dba363b1f1c3edcc:-1818817453,fc805d1a76f74110f234bbe0385006c8:32404614,8ccfc11a4bf741104574b1889123800a:-794752153,4d3f85d68ff74110e2ea6bf372771db2:-1508015038,582e0996f1f741108f793a2bbfdc2539:2078717591,26ed859630f7411094c659bb7d365eba:1689529565,e6bd81966df741107dd075e982d70470:-1508015038,8a1d095662f74110d833c7c1022b4d6d:2078717591,ce180d9e9eb7411069630d3fb7f022cb:1780857877,75c745dec3b74110435bacff921ebe7a:2143235716,b636019ef7b741102263e22812667796:1780857877,92a5cd5e14b74110165258b2b85f3483:163867135,c7c449daa0b741103c3e0136649a3cb7:-1211756805</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-02 14:20:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>04e960a9bccf487c9f06c96c1e108090</sys_id>
+        <sys_metadata>56b3451e87b741103c6554683cbb35e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ask For Approval</sys_name>
+        <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+        <sys_parent display_value="NPI">1c28fe6f87eb85103c6554683cbb3536</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+        <sys_scope_delete display_value="">6aaa7963dd7448149fb0389b4528cca4</sys_scope_delete>
+        <sys_update_name>sys_ui_action_56b3451e87b741103c6554683cbb35e3</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_56b3451e87b741103c6554683cbb35e3">f7b97956877b41103c6554683cbb35cc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-02 14:20:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

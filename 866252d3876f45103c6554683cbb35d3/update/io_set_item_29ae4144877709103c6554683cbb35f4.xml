@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>800</order>
+        <sc_cat_item display_value="Submit an NPI">370d94c487b309103c6554683cbb356a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-26 11:22:09</sys_created_on>
+        <sys_id>29ae4144877709103c6554683cbb35f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Patient /Resident Type.Submit an NPI</sys_name>
+        <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+        <sys_update_name>io_set_item_29ae4144877709103c6554683cbb35f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-26 11:22:36</sys_updated_on>
+        <variable_set display_value="Patient /Resident Type">ed7e45c4877709103c6554683cbb354e</variable_set>
+    </io_set_item>
+</record_update>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NPI" max_length="40" name="x_819630_contract_npi" sizeclass="98" type="collection">
+        <element label="Account" max_length="32" name="account" reference="ast_contract" type="reference"/>
+        <element default="40" label="ALF" max_length="40" name="alf" type="boolean"/>
+        <element default="40" label="Assisted Living" max_length="40" name="assisted_living" type="boolean"/>
+        <element label="Billing Format" max_length="40" name="billing_format" type="string"/>
+        <element label="Billing Method Type" max_length="40" name="billing_method_type" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Client Billing Type Approved" max_length="40" name="client_billing_type_approved" type="string"/>
+        <element label="Client Description" max_length="40" name="client_description" type="string"/>
+        <element label="Client Description Approved" max_length="40" name="client_description_approved" type="string"/>
+        <element label="Contact #" max_length="40" name="contact" type="string"/>
+        <element label="Contact Name" max_length="40" name="contact_name" type="string"/>
+        <element label="Corporate Owner" max_length="40" name="corporate_owner" type="string"/>
+        <element label="Corp Code #" max_length="40" name="corp_code" type="string"/>
+        <element default="40" label="Date Approved" max_length="40" name="date_approved" type="glide_date"/>
+        <element label="DBA" max_length="40" name="dba" type="string"/>
+        <element label="Direct Bill Method Type" max_length="40" name="direct_bill_method_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Does Client Have an NPI" max_length="40" name="does_client_have_an_npi" type="string"/>
+        <element choice="1" label="Employees of Client " max_length="40" name="employees_of_client" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element default="40" label="Independent Living" max_length="40" name="independent_living" type="boolean"/>
+        <element label="Legal Name of Facility" max_length="4000" name="legal_name_of_facility" type="string"/>
+        <element choice="1" label="Market Segment" max_length="40" name="market_segment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Private - Consumer Health - Athletics" sequence="0" value="Private - Consumer Health - Athletics"/>
+                <element inactive_on_update="false" label="Private - Consumer Health - Behaviour Health" sequence="1" value="Private - Consumer Health - Behaviour Health"/>
+                <element inactive_on_update="false" label="Private - Consumer Health - Direct to Consumer" sequence="2" value="Private - Consumer Health - Direct to Consumer"/>
+                <element inactive_on_update="false" label="Private - Consumer Health - Direct Primary Care" sequence="3" value="Private - Consumer Health - Direct Primary Care"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Occupational Health - Employer Direct" sequence="4" value="Private - Employer Worksite - Occupational Health - Employer Direct"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Occupational Health - Provider" sequence="5" value="Private - Employer Worksite - Occupational Health - Provider"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Occupational Health - Worksite Operator" sequence="6" value="Private - Employer Worksite - Occupational Health - Worksite Operator"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Primary Care - Employer Direct" sequence="7" value="Private - Employer Worksite - Primary Care - Employer Direct"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Primary Care - Provider" sequence="8" value="Private - Employer Worksite - Primary Care - Provider"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Primary Care - Worksite Operator" sequence="9" value="Private - Employer Worksite - Primary Care - Worksite Operator"/>
+                <element inactive_on_update="false" label="Public - City" sequence="10" value="Public - City"/>
+                <element inactive_on_update="false" label="Public - County" sequence="11" value="Public - County"/>
+                <element inactive_on_update="false" label="Public - Federal" sequence="12" value="Public - Federal"/>
+                <element inactive_on_update="false" label="Public - State" sequence="13" value="Public - State"/>
+            </choice>
+        </element>
+        <element choice="1" label="Market Segment Approved" max_length="40" name="market_segment_approved" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Private - Consumer Health - Athletics" sequence="0" value="Private - Consumer Health - Athletics"/>
+                <element inactive_on_update="false" label="Private - Consumer Health - Behaviour Health" sequence="1" value="Private - Consumer Health - Behaviour Health"/>
+                <element inactive_on_update="false" label="Private - Consumer Health - Direct Primary Care" sequence="3" value="Private - Consumer Health - Direct Primary Care"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Occupational Health - Employer Direct" sequence="4" value="Private - Employer Worksite - Occupational Health - Employer Direct"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Occupational Health - Provider" sequence="5" value="Private - Employer Worksite - Occupational Health - Provider"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Occupational Health - Worksite Operator" sequence="6" value="Private - Employer Worksite - Occupational Health - Worksite Operator"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Primary Care - Employer Direct" sequence="7" value="Private - Employer Worksite - Primary Care - Employer Direct"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Primary Care - Provider" sequence="8" value="Private - Employer Worksite - Primary Care - Provider"/>
+                <element inactive_on_update="false" label="Private - Employer Worksite - Primary Care - Worksite Operator" sequence="9" value="Private - Employer Worksite - Primary Care - Worksite Operator"/>
+                <element inactive_on_update="false" label="Public - City" sequence="10" value="Public - City"/>
+                <element inactive_on_update="false" label="Public - County" sequence="11" value="Public - County"/>
+                <element inactive_on_update="false" label="Public - Federal" sequence="12" value="Public - Federal"/>
+                <element inactive_on_update="false" label="Public - State" sequence="13" value="Public - State"/>
+            </choice>
+        </element>
+        <element choice="1" label="Medical Services Provided by Facility" max_length="40" name="medical_services_provided_by_facility" type="string">
+            <choice/>
+        </element>
+        <element label="Multiple NPIs for Client" max_length="40" name="multiple_npis_for_client" type="string"/>
+        <element label="NAICS" max_length="100" name="naics" type="string"/>
+        <element label="Notes/Comments" max_length="1000" name="notes_comments" type="string"/>
+        <element label="NPI #" max_length="400" name="npi" type="string"/>
+        <element label="NPI # Approved" max_length="40" name="npi_approved" type="string"/>
+        <element label="NPI Description" max_length="1000" name="npi_description" type="string"/>
+        <element label="NPI Reviewed?" max_length="40" name="npi_reviewed" type="string"/>
+        <element label="Number of beds in a certified SNF Facility" max_length="40" name="number_of_beds_in_a_certified_snf_facility" type="string"/>
+        <element label="Number of beds in a facility that is an Assisted Living" max_length="40" name="number_of_beds_in_a_facility_that_is_an_assisted_living" type="string"/>
+        <element label="Number of beds in a Group Home, Independent Living" max_length="40" name="number_of_beds_in_a_group_home_independent_living" type="string"/>
+        <element label="Number of beds in a non-certified SNF Facility" max_length="40" name="number_of_beds_in_a_non_certified_snf_facility" type="string"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="ast_contract" type="reference"/>
+        <element label="Other" max_length="40" name="other" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="string"/>
+        <element label="Place of Service Code Approved" max_length="100" name="place_of_service_code_approved" type="string"/>
+        <element label="Please contact facility for NPI number" max_length="1024" name="please_contact_facility_for_npi_number" type="url"/>
+        <element label="Please Specify Other" max_length="1000" name="please_specify_other" type="string"/>
+        <element label="POS Description Approved" max_length="2000" name="pos_description_approved" type="string"/>
+        <element label="Reason Rejected" max_length="400" name="reason_rejected" type="string"/>
+        <element label="Rejected NPI #" max_length="4000" name="rejected_npi" type="string"/>
+        <element label="Rejection Reasons" max_length="40" name="rejection_reasons" type="string"/>
+        <element default="40" label="Residential" max_length="40" name="residential" type="boolean"/>
+        <element label="Review Code" max_length="40" name="review_code" type="string"/>
+        <element label="Review Notes" max_length="4000" name="review_notes" type="string"/>
+        <element label="Service Address" max_length="40" name="service_address" type="string"/>
+        <element label="Skilled Nursing" max_length="40" name="skilled_nursing" type="boolean"/>
+        <element label="SNF Certified" max_length="40" name="snf_certified" type="boolean"/>
+        <element label="SNF Non-Certified" max_length="40" name="snf_non_certified" type="boolean"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="States" max_length="40" name="states" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Open" sequence="0" value="Open"/>
+                <element inactive="true" inactive_on_update="true" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Review" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="3"/>
+                <element inactive="true" inactive_on_update="true" label="Cancel" sequence="2" value="Cancel"/>
+                <element inactive_on_update="false" label="Closed" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Street" max_length="400" name="street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Address" max_length="40" name="street_address" type="string"/>
+        <element label="Submitted by" max_length="32" name="submitted_by" reference="ast_contract" type="reference"/>
+        <element label="Taxonomy Description/Definition" max_length="1000" name="taxonomy_description_definition" type="string"/>
+        <element label="Taxonomy URL" max_length="1024" name="taxonomy_url" type="url"/>
+        <element label="Team Member Name" max_length="100" name="team_member_name" type="string"/>
+        <element label="Website Link" max_length="200" name="website_link" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <index name="index">
+            <element name="opportunity"/>
+        </index>
+        <index name="index2">
+            <element name="submitted_by"/>
+        </index>
+        <index name="index3">
+            <element name="account"/>
+        </index>
+    </element>
+</database>

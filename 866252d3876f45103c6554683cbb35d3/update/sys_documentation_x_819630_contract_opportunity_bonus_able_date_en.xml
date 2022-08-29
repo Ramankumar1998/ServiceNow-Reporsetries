@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="bonus_able_date" label="Bonus-able Date" language="en" table="x_819630_contract_opportunity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>bonus_able_date</element>
+            <help/>
+            <hint/>
+            <label>Bonus-able Date</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <plural>Bonus-able Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 07:36:25</sys_created_on>
+            <sys_id>5161132f87ef85103c6554683cbb3563</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Bonus-able Date</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_documentation_x_819630_contract_opportunity_bonus_able_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 07:36:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service" table="x_819630_contract_opportunity" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service</element>
+            <name>x_819630_contract_opportunity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_id>2842907b87e3c5103c6554683cbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>service</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_choice_x_819630_contract_opportunity_service</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>X-RAY</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a042907b87e3c5103c6554683cbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>X-RAY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ULTRASOUND</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2442907b87e3c5103c6554683cbb35f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>ULTRASOUND</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LAB</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e042907b87e3c5103c6554683cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>LAB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vascular Access</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64425c7b87e3c5103c6554683cbb3551</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>Vascular Access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TRANSFUSIONS</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24425c7b87e3c5103c6554683cbb3552</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>TRANSFUSIONS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NP MEDICAL SERVICES (selected area)</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0425c7b87e3c5103c6554683cbb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>NP MEDICAL SERVICES (selected area)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HOLTER MONITORING (selected area)</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0425c7b87e3c5103c6554683cbb3554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>HOLTER MONITORING (selected area)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EVENT MONITORING (selected area)</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60425c7b87e3c5103c6554683cbb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>EVENT MONITORING (selected area)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PACEMAKER CHECKS (selected area)</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20425c7b87e3c5103c6554683cbb3556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>PACEMAKER CHECKS (selected area)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>24 HR TELEMETRY (selected area)</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec425c7b87e3c5103c6554683cbb3556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>24 HR TELEMETRY (selected area)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OXYGEN (selected area)</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac425c7b87e3c5103c6554683cbb3557</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>OXYGEN (selected area)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infection Control</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c425c7b87e3c5103c6554683cbb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>Infection Control</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RELY</label>
+            <language>en</language>
+            <name>x_819630_contract_opportunity</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 12:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c425c7b87e3c5103c6554683cbb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 12:19:49</sys_updated_on>
+            <value>RELY</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

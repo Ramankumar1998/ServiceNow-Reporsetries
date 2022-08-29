@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="regional_manager_group" label="Regional Manager Group" language="en" table="x_819630_contract_account">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>regional_manager_group</element>
+            <help/>
+            <hint/>
+            <label>Regional Manager Group</label>
+            <language>en</language>
+            <name>x_819630_contract_account</name>
+            <plural>Regional Manager Groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:56:37</sys_created_on>
+            <sys_id>f111df57876385103c6554683cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Regional Manager Group</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_documentation_x_819630_contract_account_regional_manager_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:56:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

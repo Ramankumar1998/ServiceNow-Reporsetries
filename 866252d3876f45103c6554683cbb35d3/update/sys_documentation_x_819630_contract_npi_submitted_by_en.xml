@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="submitted_by" label="Submitted by" language="en" table="x_819630_contract_npi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>submitted_by</element>
+            <help/>
+            <hint/>
+            <label>Submitted by</label>
+            <language>en</language>
+            <name>x_819630_contract_npi</name>
+            <plural>Submitted by</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 06:43:41</sys_created_on>
+            <sys_id>74550bef87af85103c6554683cbb35de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Submitted by</sys_name>
+            <sys_package display_value="Contract Life Cycle Management" source="x_819630_contract">866252d3876f45103c6554683cbb35d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Contract Life Cycle Management">866252d3876f45103c6554683cbb35d3</sys_scope>
+            <sys_update_name>sys_documentation_x_819630_contract_npi_submitted_by_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 06:43:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

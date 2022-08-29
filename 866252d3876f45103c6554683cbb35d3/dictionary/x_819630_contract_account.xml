@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Account" max_length="40" name="x_819630_contract_account" sizeclass="7" type="collection">
+        <element label="Account Linked to PACC or NPI" max_length="40" name="account_linked_to_pacc_or_npi" type="boolean"/>
+        <element display="true" label="Account Name" max_length="200" name="account_name" type="string"/>
+        <element label="Account Ranking" max_length="40" name="account_ranking" type="string"/>
+        <element choice="1" label="Account Status" max_length="40" name="account_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="InActive" sequence="1" value="InActive"/>
+            </choice>
+        </element>
+        <element choice="1" label="Account Sub-Type" mandatory="true" max_length="40" name="account_sub_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-Client - Payer" sequence="0" value="Non-Client - Payer"/>
+                <element inactive_on_update="false" label="Non-Client - Vendor" sequence="1" value="Non-Client - Vendor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Type" max_length="40" name="account_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Client" sequence="0" value="Client"/>
+                <element inactive_on_update="false" label="Non-Client" sequence="1" value="Non-Client"/>
+            </choice>
+        </element>
+        <element label="Additional Reviewer Name" max_length="32" name="additional_reviewer_name" reference="incident" type="reference"/>
+        <element choice="1" label="Annual Price Increase Required?" mandatory="true" max_length="40" name="annual_price_increase_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Increase" sequence="0" value="Increase"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Exempt" sequence="2" value="Exempt"/>
+                <element inactive_on_update="false" label="No" sequence="3" value="No"/>
+            </choice>
+        </element>
+        <element label="Aprima Client ID" max_length="40" name="aprima_client_id" type="string"/>
+        <element label="Assigned to" max_length="32" name="assigned_toassigned_to" reference="incident" type="reference"/>
+        <element label="Beds SNF Certified" max_length="40" name="beds_snf_certified" type="integer"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Client Description" max_length="40" name="client_description" type="string"/>
+        <element choice="1" label="Client Type" max_length="40" name="client_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-Client" sequence="0" value="Non-Client"/>
+                <element inactive_on_update="false" label="Client" sequence="1" value="Client"/>
+                <element inactive_on_update="false" label="Corp Client" sequence="2" value="Corp Client"/>
+                <element inactive_on_update="false" label="Internal" sequence="3" value="Internal"/>
+                <element inactive_on_update="false" label="3rd Party" sequence="4" value="3rd Party"/>
+                <element inactive_on_update="false" label="Vendor" sequence="5" value="Vendor"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element label="Corporately Owned" max_length="40" name="corporately_owned" type="boolean"/>
+        <element label="Corporate Account Rep" max_length="40" name="corporate_account_rep" type="string"/>
+        <element label="Corporate Affiliate (Footprint)" max_length="40" name="corporate_affiliate_footprint" type="string"/>
+        <element label="Corporate Affiliation" max_length="32" name="corporate_affiliation" reference="ast_contract" type="reference"/>
+        <element label="Corporate Code" max_length="40" name="corporate_code" type="string"/>
+        <element label="Corporate Footprint (Affiliate)" max_length="40" name="corporate_footprint_affiliate" type="string"/>
+        <element label="Cost Center" max_length="40" name="cost_center" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="County" max_length="40" name="county" type="string"/>
+        <element label="Created" max_length="40" name="created" type="glide_date_time"/>
+        <element label="Created by" max_length="40" name="created_by" type="string"/>
+        <element label="DDF Sales Rep ID" max_length="40" name="ddf_sales_rep_id" type="string"/>
+        <element label="Discontinue Date" max_length="40" name="discontinue_date" type="glide_date"/>
+        <element label="Dispatch Area" max_length="200" name="dispatch_area" type="string"/>
+        <element label="EMR" max_length="40" name="emr" type="string"/>
+        <element label="Enterprise Client ID" max_length="40" name="enterprise_client_id" type="string"/>
+        <element label="Event Monitoring" max_length="4000" name="event_monitoring" type="glide_list"/>
+        <element label="Event Monitoring Status" max_length="40" name="event_monitoring_status" type="string"/>
+        <element label="Exam per MN per 100 Beds" max_length="40" name="exam_per_mn_per_100_beds" type="integer"/>
+        <element label="Group Purchasing Organization" max_length="1024" name="group_purchasing_organization" type="glide_list"/>
+        <element label="Holter Monitoring" max_length="4000" name="holter_monitoring" type="glide_list"/>
+        <element label="Holter Monitoring Status" max_length="40" name="holter_monitoring_status" type="string"/>
+        <element label="24 Hr Telemetry Status" max_length="40" name="hr_telemetry_status" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Is Corporate Account?" max_length="40" name="is_corporate_account" type="boolean"/>
+        <element label="Is Duplicate" max_length="40" name="is_duplicate" type="boolean"/>
+        <element label="Lab" max_length="32" name="lab" reference="ast_contract" type="reference"/>
+        <element label="Lab Business Entity" max_length="40" name="lab_business_entity" type="string"/>
+        <element label="Lab Client ID" max_length="40" name="lab_client_id" type="string"/>
+        <element label="Lab Fee Schedule" max_length="40" name="lab_fee_schedule" type="string"/>
+        <element label="Lab Sent Date" max_length="40" name="lab_sent_date" type="glide_date"/>
+        <element label="Lab Status" max_length="40" name="lab_status" type="string"/>
+        <element label="Lab - Unable Reason" max_length="4000" name="lab_unable_reason" type="glide_list"/>
+        <element label="Local Ownership" max_length="40" name="local_ownership" type="string"/>
+        <element label="Mapped with PACC" max_length="40" name="mapped_with_pacc" type="boolean"/>
+        <element label="Medicare Provider/CNN#" max_length="40" name="medicare_provider_cnn" type="string"/>
+        <element label="Non SNF Beds/Patients/Inmates" max_length="40" name="non_snf_beds_patients_inmates" type="integer"/>
+        <element label="NPI Client" max_length="40" name="npi_client" type="string"/>
+        <element label="NPI Facility" max_length="40" name="npi_facility" type="string"/>
+        <element label="NP Medical Services" max_length="4000" name="np_medical_services" type="glide_list"/>
+        <element label="NP Medical Services Status" max_length="40" name="np_medical_services_status" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Office Fax" max_length="40" name="office_fax" type="phone_number_e164"/>
+        <element label="Office Phone" max_length="40" name="office_phone" type="phone_number_e164"/>
+        <element label="Oxygen" max_length="40" name="oxygen" type="string"/>
+        <element label="Oxygen Status" max_length="40" name="oxygen_status" type="string"/>
+        <element label="Pacemaker Checks" max_length="4000" name="pacemaker_checks" type="glide_list"/>
+        <element label="Pacemaker Checks Status" max_length="40" name="pacemaker_checks_status" type="string"/>
+        <element label="Physical Address" max_length="2000" name="physical_address" type="string"/>
+        <element label="PICC" max_length="1024" name="picc" type="glide_list"/>
+        <element label="PICC Status" max_length="40" name="picc_status" type="string"/>
+        <element label="PICC - Unable Reason" max_length="1024" name="picc_unable_reason" type="glide_list"/>
+        <element label="POS code" max_length="40" name="pos_code" type="string"/>
+        <element label="Radiology Business Entity" max_length="40" name="radiology_business_entity" type="string"/>
+        <element label="Radiology Client ID" max_length="40" name="radiology_client_id" type="string"/>
+        <element label="Ranking as of" max_length="40" name="ranking_as_of" type="string"/>
+        <element label="Region" max_length="40" name="region" type="string"/>
+        <element label="Regional Manager Group" max_length="32" name="regional_manager_group" reference="ast_contract" type="reference"/>
+        <element label="Relationship Type" max_length="40" name="relationship_type" type="string"/>
+        <element label="Report Billing Issue" max_length="40" name="report_billing_issue" type="url"/>
+        <element label="Retrieving data. Wait a few seconds and try to cut or copy again." max_length="1024" name="retrieving_data_wait_a_few_seconds_and_try_to_cut_or_copy_again" type="url"/>
+        <element label="Seacoast ID" max_length="40" name="seacoast_id" type="string"/>
+        <element label="Secondary Assigned to" max_length="32" name="secondary_assigned_to" reference="ast_contract" type="reference"/>
+        <element label="ServiceNow NPI Link" max_length="1024" name="servicenow_npi_link" type="url"/>
+        <element label="ServiceNow NPI Number" max_length="40" name="servicenow_npi_number" type="string"/>
+        <element label="ServiceNow PACC Number" max_length="40" name="servicenow_pacc_number" type="string"/>
+        <element label="Special Considerations" max_length="40" name="special_considerations" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="State Ranking" max_length="40" name="state_ranking" type="string"/>
+        <element label="Street" max_length="200" name="street" type="string"/>
+        <element label="Teams" max_length="40" name="teams" type="string"/>
+        <element label="Total Beds/Patients/Inmates" max_length="40" name="total_beds_patients_inmates" type="integer"/>
+        <element label="Trident Telcor ID" max_length="40" name="trident_telcor_id" type="string"/>
+        <element label="Ultrasound" max_length="32" name="ultrasound" reference="ast_contract" type="reference"/>
+        <element label="Ultrasound Fee Schedule" max_length="40" name="ultrasound_fee_schedule" type="string"/>
+        <element label="Ultrasound Status" max_length="40" name="ultrasound_status" type="string"/>
+        <element label="Updated" max_length="40" name="updated" type="glide_date_time"/>
+        <element label="Updated by" max_length="40" name="updated_by" type="string"/>
+        <element label="Updates" max_length="40" name="updates" type="integer"/>
+        <element label="24 Hr Telemetry" max_length="4000" name="u_24_hr_telemetry" type="glide_list"/>
+        <element label="Website" max_length="1024" name="website" type="url"/>
+        <element label="X-Ray" max_length="32" name="x_ray" reference="ast_contract" type="reference"/>
+        <element label="X-Ray Fee Schedule" max_length="40" name="x_ray_fee_schedule" type="string"/>
+        <element label="X-Ray Sent Date" max_length="40" name="x_ray_sent_date" type="glide_date"/>
+        <element label="X-Ray Status" max_length="40" name="x_ray_status" type="string"/>
+        <element label="X-Ray - Unable Reason" max_length="1024" name="x_ray_unable_reason" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Zipcode" max_length="40" name="zipcode" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <index name="index">
+            <element name="assigned_toassigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="corporate_affiliation"/>
+        </index>
+        <index name="index3">
+            <element name="regional_manager_group"/>
+        </index>
+        <index name="index4">
+            <element name="secondary_assigned_to"/>
+        </index>
+        <index name="index5">
+            <element name="x_ray"/>
+        </index>
+        <index name="index6">
+            <element name="additional_reviewer_name"/>
+        </index>
+        <index name="index7">
+            <element name="lab"/>
+        </index>
+        <index name="index8">
+            <element name="ultrasound"/>
+        </index>
+    </element>
+</database>
